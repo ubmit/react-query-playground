@@ -1,6 +1,6 @@
 import {Todo} from '../types'
 
-const API_BASE_URL = 'http://localhost:3000'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
 
 async function getTodos(): Promise<Array<Todo>> {
   const response = await fetch(`${API_BASE_URL}/todos`)
