@@ -1,7 +1,7 @@
 type Todo = {
-  id: string;
-  completed: boolean;
-  title: string;
-};
+  id: string
+  completed: boolean
+  title: string
+}
 
-export type { Todo };
+export type {Todo}
